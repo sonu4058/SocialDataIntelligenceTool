@@ -1,0 +1,206 @@
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="content-block text-center" id="portfolio">
+    <header class="block-heading cleafix">
+        <h1>Latest Works</h1>
+        <!-- <p>Take a look at some of my recent products</p> -->
+    </header>
+    <div class="isotope portfolio-items" >
+        <div class="element-item grid">
+            <div class="effect-zoe" style="background-color:white;">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                @*<img class="img-responsive" alt="Portfolio" src="../Resources/img/work1.jpg">*@
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+                <figcaption>
+                    <div>
+                        <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                    </div>
+
+                </figcaption>
+            </div>
+        </div>
+        <div class="element-item grid">
+            <div class="effect-zoe" style="background-color:white;">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                @*<img class="img-responsive" alt="Portfolio" src="../Resources/img/work1.jpg">*@
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+                <figcaption>
+                    <div>
+                        <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                    </div>
+
+                </figcaption>
+            </div>
+        </div>
+        <div class="element-item grid" style="margin:10px;">
+            <div class="effect-zoe" style="background-color:white;">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                @*<img class="img-responsive" alt="Portfolio" src="../Resources/img/work1.jpg">*@
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+                <figcaption>
+                    <div>
+                        <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                    </div>
+
+                </figcaption>
+            </div>
+        </div>
+        <div class="element-item grid" style="margin:10px;">
+            <div class="effect-zoe" style="background-color:white;">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                @*<img class="img-responsive" alt="Portfolio" src="../Resources/img/work1.jpg">*@
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+                <figcaption>
+                    <div>
+                        <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                    </div>
+
+                </figcaption>
+            </div>
+        </div>
+        <div class="element-item grid" style="margin:10px;">
+            <div class="effect-zoe" style="background-color:white;">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                @*<img class="img-responsive" alt="Portfolio" src="../Resources/img/work1.jpg">*@
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+                <figcaption>
+                    <div>
+                        <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                    </div>
+
+                </figcaption>
+            </div>
+        </div>
+        <div class="element-item grid" style="margin:10px;">
+            <div class="effect-zoe" style="background-color:white;">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                @*<img class="img-responsive" alt="Portfolio" src="../Resources/img/work1.jpg">*@
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+                <figcaption>
+                    <div>
+                        <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                    </div>
+
+                </figcaption>
+            </div>
+        </div>
+        <div class="element-item grid" style="margin:10px;">
+            <div class="effect-zoe" style="background-color:white;">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                @*<img class="img-responsive" alt="Portfolio" src="../Resources/img/work1.jpg">*@
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+                <figcaption>
+                    <div>
+                        <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                    </div>
+
+                </figcaption>
+            </div>
+        </div>
+        <div class="element-item grid" style="margin:10px;">
+            <div class="effect-zoe" style="background-color:white;">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                @*<img class="img-responsive" alt="Portfolio" src="../Resources/img/work1.jpg">*@
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+                <figcaption>
+                    <div>
+                        <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;">Explore</a>
+                    </div>
+
+                </figcaption>
+            </div>
+        </div>
+    </div>	<!-- isotope portfolio-items -->
+
+</div>  <!-- content-block -->

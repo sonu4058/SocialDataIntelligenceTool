@@ -1,0 +1,467 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div style="margin-top: 15%; background-color: #404040;padding:10px;">
+    <div class="row text-center">
+        <div class="col-sm-6">
+
+            <div class="thumbnail" id="boxshadow" style="border-style:dotted;border-width:4px;">
+                @*<img src="~/Resources/images/home_button.png" />*@
+
+                <div>
+                    <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" data-toggle="modal" data-target="#myModal" style="align-content:center;margin-top:30px;">Create Study</a>
+                </div>
+
+                <br />
+                <h5>Create your free study in demo version.</h5>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="thumbnail">
+                <h2>Social Data Intelligence tool</h2>
+                <p>Description about social data visulization tool product, feature etc. </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+
+                <div>
+                    <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+
+                <div>
+                    <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="~/Resources/images/home_button.png" />
+                <h2>Product1</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Traget</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Refrence</h4>
+                        <p>This is the target between the people between 19-60.</p>
+                    </div>
+                </div>
+                <button style="background-color:aliceblue;">1,200 found</button>
+
+                <div>
+                    <a href="" target="_blank" class="btn btn-lg btn-hire wow animated zoomIn" style="align-content:center;margin-top:30px;">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Create Study  -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal Create Study content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4><span class="glyphicon glyphicon-lock"></span> Your Study</h4>
+            </div>
+            <div class="modal-body" style="background-color:#6DBDD6;">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+                        <input type="number" class="form-control" id="psw" placeholder="How many?">
+                    </div>
+                    <div class="form-group">
+                        <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                        <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-block">
+                        Pay
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                    <span class="glyphicon glyphicon-remove"></span> Cancel
+                </button>
+                <p>Need <a href="#">help?</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Welcome Social Data Intelligence Tool -->
+<div class="modal fade" id="WelcomeModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal Create Study content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                @*<button type="button" class="close" data-dismiss="modal">×</button>*@
+                <h4>Welcome To SDIV Tool</h4>
+            </div>
+            <div class="modal-body" style="background-color:#6DBDD6;">
+                <div class="thumbnail row" style="display:flexbox; padding:5px;background-color:white;">
+                    <div class="col-sm-4">
+                        <img src="~/Resources/images/user_welcome.jpg" height="150" width="150" />
+                    </div>
+                    <div class="col-sm-8" style="margin-top:5px;">
+                        <h5>Ready to discover SDIV tool ?</h5>
+                        <br />
+                        <p>
+                            We only need a bit more information concerning your need.
+                            This will us to provide you with the relevant material during your free trial.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" id="StartWelcomeModal" class="btn btn-danger btn-default center">
+                    Start
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Profile Details 1 -->
+<div class="modal fade" id="ProfileDetail1" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal Create Study content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                @*<button type="button" class="close" data-dismiss="modal">×</button>*@
+                <h4>Welcome To SDIV Tool</h4>
+            </div>
+            <div class="modal-body" style="background-color:#6DBDD6;">
+                <div class="thumbnail" style="display:flexbox; padding:5px;background-color:white;">
+                    <div style="text-align:center">
+                        <img src="~/Resources/images/whorupic.jpg" height="50" width="50" />
+                        <span style="font-size:medium;">Who are you?</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="fn">Firstname:</label>
+                            <input type="text" class="form-control" id="fn" placeholder="Enter first name" name="fn">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="ln">Lastname:</label>
+                            <input type="text" class="form-control" id="ln" placeholder="Enter last name" name="ln">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter Phone Number" name="phone">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" id="backTowelcomeModal">
+                    Back
+                </button>
+                <button type="submit" class="btn btn-danger btn-default pull-right" id="saveFirstProfileAndContinue">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="ProfileDetail2" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal ProfileDetail2 content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                @*<button type="button" class="close" data-dismiss="modal">×</button>*@
+                <h4>Welcome To SDIV Tool</h4>
+            </div>
+            <div class="modal-body" style="background-color:#6DBDD6;padding:20px">
+                <div class="thumbnail" style="display:flexbox; padding:10px;background-color:white;">
+                    <div style="text-align:center">
+                        <img src="~/Resources/images/work_place.jpg" height="80" width="100" />
+                        <span style="font-size:medium;">What do you do?</span>
+                    </div>
+                    <div class="row  text-center">
+                        <div class="col-sm-4">
+                            <input type="radio" name="rdoAdv" value="advertiser"><span>I'm an advertiser</span>
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="radio" name="rdoAdv" value="agency">I'm an agency
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="radio" name="rdoAdv" value="startup">I'm a startup
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="radio" name="rdoAdv" value="other">Other
+                        </div>
+                    </div>
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="compName">Company Name</label>
+                            <input type="text" id="compName" class="form-control" placeholder="Your company's name" name="compName">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="compSize">Company size</label>
+                            <select name="compSize">
+                                <option value="0-10">0-10</option>
+                                <option value="50">10-50</option>
+                                <option value="100">50-100</option>
+                                <option value="100+">>100</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="companySector">Sector</label>
+                            <input type="text" class="form-control" width="150" id="companySector" placeholder="Your company's sector" name="companySector">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="jobPosition">Job position</label>
+                            <input type="text" class="form-control" id="jobPosition" placeholder="Your job's position" name="jobPosition">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" id="backToProfileDetail1Modal">
+                    Back
+                </button>
+                <button type="submit" class="btn btn-danger btn-default pull-right" id="saveProfileDetail2AndContinue">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="Detail2" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal ProfileDetail2 content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                @*<button type="button" class="close" data-dismiss="modal">×</button>*@
+                <h4>Welcome To SDIV Tool2</h4>
+            </div>
+            <div class="modal-body" style="background-color:#6DBDD6;padding:20px">
+                <div class="thumbnail" style="display:flexbox; padding:10px;background-color:white;">
+                    <div style="text-align:center">
+                        <img src="~/Resources/images/work_place.jpg" height="80" width="100" />
+                        <span style="font-size:medium;">What do you do?</span>
+                    </div>
+                    <div class="row  text-center">
+                        <div class="col-sm-4">
+                            <input type="radio" name="rdoAdv" value="advertiser"><span>I'm an advertiser</span>
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="radio" name="rdoAdv" value="agency">I'm an agency
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="radio" name="rdoAdv" value="startup">I'm a startup
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="radio" name="rdoAdv" value="other">Other
+                        </div>
+                    </div>
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="compName">Company Name</label>
+                            <input type="text" id="compName" class="form-control" placeholder="Your company's name" name="compName">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="compSize">Company size</label>
+                            <select name="compSize">
+                                <option value="0-10">0-10</option>
+                                <option value="50">10-50</option>
+                                <option value="100">50-100</option>
+                                <option value="100+">>100</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="companySector">Sector</label>
+                            <input type="text" class="form-control" width="150" id="companySector" placeholder="Your company's sector" name="companySector">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="jobPosition">Job position</label>
+                            <input type="text" class="form-control" id="jobPosition" placeholder="Your job's position" name="jobPosition">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" id="backToProfileDetail1Modal">
+                    Back
+                </button>
+                <button type="submit" class="btn btn-danger btn-default pull-right" id="saveProfileDetail2AndContinue">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Profildetail3-->
+<div class="modal fade" id="userProfileDetail3" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal Create Study content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                @*<button type="button" class="close" data-dismiss="modal">×</button>*@
+                <h4>Welcome To SDIV Tool</h4>
+            </div>
+            <div class="modal-body" style="background-color:#6DBDD6;">
+                <div class="thumbnail row" style="display:flexbox; padding:5px;background-color:white;">
+                    <div style="text-align:center">
+                        <img src="~/Resources/images/Goal-Setting.jpg" height="60" width="80" />
+                        <span style="font-size:medium;">What do you do?</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <input type="radio" name="rdoAd" value="advertiser"><span>Content marketing</span>
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="radio" name="rdoAd" value="agency">Media planning
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="radio" name="rdoAd" value="startup">Partnership choice
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <input type="radio" name="rdoAd" value="advertiser">Market Research
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="radio" name="rdoAd" value="agency">Sponser choice
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="radio" name="rdoAd" value="startup">Pitch advertising
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <input type="radio" name="rdoAd" value="other">Other
+                    </div>
+                    <div class="row-clear">
+                        <label for="exampleFormControlTextarea3">Description</label><br /> 
+                        <textarea class="form-control" id="exampleFormControlTextarea3" rows="2" style="float:left;"></textarea>                       
+                    </div>                    
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" id="backToProfileDetail2Modal">
+                    Back
+                </button>
+                <button type="submit" class="btn btn-danger btn-default pull-right" id="saveProfileDetail3AndContinue" data-dismiss="modal">
+                    Save Details
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        alert('hello');
+        $(document).ready(function () {
+            debugger;
+            $('#WelcomeModal').modal('show');
+
+        });
+        $("#StartWelcomeModal").click(function () {
+            $('#WelcomeModal').modal('hide');
+            $('#ProfileDetail1').modal('show');
+        });
+
+        $("#backTowelcomeModal").click(function () {
+            $('#WelcomeModal').modal('show');
+            $('#ProfileDetail1').modal('hide');
+        });
+
+        $("#saveFirstProfileAndContinue").click(function () {
+            $('#ProfileDetail1').modal('hide');
+            $('#ProfileDetail2').modal('show');
+        });
+
+        $("#backToProfileDetail1Modal").click(function () {
+            $('#ProfileDetail1').modal('show');
+            $('#ProfileDetail2').modal('hide');
+        });
+
+        $("#saveProfileDetail2AndContinue").click(function () {
+            $('#ProfileDetail2').modal('hide');
+            $('#userProfileDetail3').modal('show');
+        });
+
+        $("#backToProfileDetail2Modal").click(function () {
+            $('#ProfileDetail2').modal('show');
+            $('#ProfileDetail3').modal('hide');
+        });
+
+        //$("#saveProfileDetail3AndContinue").click(function () {
+        //    $('#ProfileDetail2').modal('hide');
+        //    $('#ProfileDetail3').modal('show');
+        //});
+    </script>
+}
+
+
+
+
+
+

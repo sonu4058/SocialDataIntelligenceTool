@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+@*<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - My ASP.NET Application</title>
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", null, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
+    </html>*@
+
+
+
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Social Data Intelligence Tool</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="Resources/css/base.css">
+    <link rel="stylesheet" href="Resources/css/main.css">
+    <link rel="stylesheet" href="Resources/css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="Resources/js/modernizr.js"></script>
+
+    <!-- favicons
+     ================================================== -->
+    <link rel="icon" type="Resources/image/png" href="Resources/favicon.png">   
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header>
+
+        <div class="row">
+
+            <div class="logo">
+                <a href="@Url.Action("Index","Home")">Lhander</a>
+            </div>
+            <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+        </div>
+
+    </header> <!-- /header -->
+    <!-- intro section
+    ================================================== -->
+    <section id="intro">
+
+        <div class="shadow-overlay"></div>
+
+        <div class="intro-content">
+            <div class="row">
+
+                <div class="col-twelve">
+
+                    <div class='video-link'>
+                        <a href="#video-popup"><img src="Resources/images/play-button.png" alt=""></a>
+                    </div>
+
+                    <h5>Hello welcome to Social data Intelligence Tool.</h5>
+                    @*<h1>Our awesome app will make your life a lot easier.</h1>*@                  
+                    <div>
+                        <a href="@Url.Action("Index","Admin")" title=""><img src="/Resources/images/Social buttons by Dreamstale (2).png" /></a>                        
+                    </div>
+                   
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal Popup
+        ========================================================= -->
+
+        <div id="video-popup" class="popup-modal mfp-hide">
+
+            <div class="fluid-video-wrapper">
+                <iframe src="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=faec09" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+
+            <a class="close-popup">Close</a>
+
+        </div> <!-- /video-popup -->
+
+    </section> <!-- /intro -->
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="footer-bottom">
+
+            <div class="row">
+
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Social Data Intelligence Tool 2018.</span>
+                        <span>Design by <a href="">ssss</a></span>
+                    </div>
+
+                    <div id="go-top" style="display: block;">
+                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a>
+                    </div>
+                </div>
+
+            </div> <!-- /footer-bottom -->
+
+        </div>
+
+    </footer>
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="Resources/js/jquery-1.11.3.min.js"></script>
+    <script src="Resources/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="Resources/js/plugins.js"></script>
+    <script src="Resources/js/main.js"></script>
+
+</body>
+
+</html>
